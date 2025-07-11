@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+h2{
+    color:blanchedalmond;
+    font-size: 20px;
+    font-family: Euro
+}
+
+
+
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    border: 3px solid  blueviolet;
+    border-radius: 16px;
+    margin: 50px auto;
+    padding-top: 10px;
+    
+    width: 300px;
+    height: 600px;
+    background-color: black;
+}
+
+.display{
+
+ 
+  
+ 
+    border: 3px solid white;
+    background-color: aqua;
+    width: 92%;
+    padding: 5px;
+    height: 130px;
+    box-sizing: border-box;
+    margin-top: 0%;
+    text-align: right;
+    
+    
+    
+    
+    
+
+}
+
+.keypad{
+    
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    
+    padding-bottom: 20px;
+    padding-top: 20%;
+    
+}
+    
+button{
+
+    border-radius: 50%;
+    font-size: 30px;
+}
+  .operator{
+    background-color: grey;
+  }
+  .equal{
+    background-color: orange;
+  }
+
+  p{
+    font-size: 30px;
+  }
